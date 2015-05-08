@@ -183,3 +183,19 @@ ul.share-buttons li{
   display: inline;
     margin-right: 0.5em;
 }
+
+.featurette>p {
+    margin-left: 15px;
+}
+.logoimg {
+    width: 256px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 50px;
+}
+
+.topbanner {
+    background-image: url("../images/stock/aluminumfade.jpg");
+    background-size: 100% 100%;
+}
