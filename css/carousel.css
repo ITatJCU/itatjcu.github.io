@@ -170,3 +170,16 @@ p.description_content {
 	padding:10px;
 	margin:0px;
 }
+
+/* Sharing buttons - http://simplesharingbuttons.com */
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+}
+
+ul.share-buttons li{
+  display: inline;
+    margin-right: 0.5em;
+}
