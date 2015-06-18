@@ -152,6 +152,16 @@ div.presenters div:nth-of-type(3n+1) {
 	 }
  }
 
+.column-time {
+    width: 4em;
+}
+.column-presenter {
+    width: 12em;
+}
+.column-details {
+
+}
+
 /* For overlay captions, heavily modified from
 http://web.enavu.com/tutorials/making-image-overlay-caption-using-css/ */
 
