@@ -49,9 +49,9 @@
                         src="../images/sitepoint_logo.png" width="330" height="73" alt="Sitepoint">
 </p>
                     <p>
-                        <a class="btn btn-lg btn-primary"
+                        <!--<a class="btn btn-lg btn-primary"
                            href="#prize-winners"
-                           role="button" onclick="prizes()">Draw the winners!</a>
+                           role="button" onclick="prizes()">Draw the winners!</a>-->
                     </p>
                 </div>
             </div>
@@ -61,20 +61,36 @@
 <div class="container marketing">
     <hr class="featurette-divider">
     <div class="row featurette" id="prizes-feature">
-        <div class="col-md-7">
+        <div>
             <h2 class="featurette-heading" id="prize-winners">
                 <span class="glyphicon glyphicon-thumbs-up"></span> Prize Winners
             </h2>
-            <p class="lead">Nokia Lumia 520 from Microsoft:
+            <p class="lead">
+                <a class="btn btn-lg btn-primary"
+                   href="#prize-winners"
+                   role="button" onclick="singlePrize('tsv', 'prize-microsoft')">Draw the winner!</a>
+                Nokia Lumia 520 from Microsoft:
                 <span class="winner" id="prize-microsoft">Lindsay Ward</span>
             </p>
-            <p class="lead">1 Year IT Training from Pluralsight:
+            <p class="lead">
+                <a class="btn btn-lg btn-primary"
+                   href="#prize-winners"
+                   role="button" onclick="singlePrize('cns', 'prize-pluralsight')">Draw the winner!</a>
+                1 Year IT Training from Pluralsight:
                 <span class="winner" id="prize-pluralsight">Lindsay Ward</span>
             </p>
-            <p class="lead">1 Year IT Training from SitePoint:
+            <p class="lead">
+                <a class="btn btn-lg btn-primary"
+                   href="#prize-winners"
+                   role="button" onclick="singlePrize('tsv', 'prize-sitepoint1')">Draw the winner!</a>
+                1 Year IT Training from SitePoint:
                 <span class="winner" id="prize-sitepoint1">Lindsay Ward</span>
             </p>
-            <p class="lead">1 Year IT Training from SitePoint:
+            <p class="lead">
+                <a class="btn btn-lg btn-primary"
+                   href="#prize-winners"
+                   role="button" onclick="singlePrize('cns', 'prize-sitepoint2')">Draw the winner!</a>
+                1 Year IT Training from SitePoint:
                 <span class="winner" id="prize-sitepoint2">Lindsay Ward</span>
             </p>
 
