@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Prizes - NQ IT Industry Conference</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/carousel.css" rel="stylesheet"/>
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+</head>
+
+<body>
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand">IT@JCU</span>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active topbanner">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 id="top-prize-h1">NQ IT Industry Conference - Prizes!</h1>
+
+<p>                    <img src="../images/stock/microsoft_logo.png" width="300" height="130" alt="Microsoft"> &nbsp; <img
+                        src="../images/stock/pluralsight_logo.png" width="300" height="130" alt="Pluralsight"> &nbsp; <img
+                        src="../images/sitepoint_logo.png" width="330" height="73" alt="Sitepoint">
+</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary"
+                           href="#prize-winners"
+                           role="button" onclick="prizes()">Draw the winners!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container marketing">
+    <hr class="featurette-divider">
+    <div class="row featurette" id="prizes-feature">
+        <div class="col-md-7">
+            <h2 class="featurette-heading" id="prize-winners">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Prize Winners
+            </h2>
+            <p class="lead">Nokia Lumia 520 from Microsoft:
+                <span class="winner" id="prize-microsoft"></span>
+            </p>
+            <p class="lead">1 Year IT Training from Pluralsight:
+                <span class="winner" id="prize-pluralsight"></span>
+            </p>
+            <p class="lead">1 Year IT Training from SitePoint:
+                <span class="winner" id="prize-sitepoint1"></span>
+            </p>
+            <p class="lead">1 Year IT Training from SitePoint:
+                <span class="winner" id="prize-sitepoint2"></span>
+            </p>
+
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <footer>
+    </footer>
+</div>
+<script src="prizedraw.js"></script>
+<script src="ticketstsv.jsonp"></script>
+<script src="ticketscns.jsonp"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
