@@ -1,6 +1,11 @@
 # itatjcu.github.io
 also it.jcu.io
 
+Website for IT@JCU
+
+Subdirectory `conf`
+-------------------
+
 Website for the NQ IT Industry Conference
 26th June 2015
 
