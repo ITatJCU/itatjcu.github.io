@@ -1,0 +1,27 @@
+@media only screen and (max-width: 500px)
+{
+	p {
+		text-align: left;
+	}
+	
+	img.floatLeft, img.floatRight
+	{
+		-webkit-box-shadow: none;
+		box-shadow:         none;
+		
+		float: none;
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	ul#socialLinks li a .fa {
+		font-size: 3em;
+	}
+	
+	#footer ul li {
+		display: block;
+	}
+}
