@@ -1,7 +1,7 @@
 # itatjcu.github.io
 also it.jcu.io
 
-Website for IT@JCU
+Website for IT@JCU - general promotion and interest site, not a replacement for our core JCU site: http://www.jcu.edu.au/it
 
 Subdirectory `conf`
 -------------------
